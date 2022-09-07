@@ -166,7 +166,7 @@ video {
 .hero-welcome:before {
   content: '';
   position: absolute;
-  background: url('../img/Babrujskaja.jpg') 0 50% no-repeat;
+  background: url('../photo/2021/minsk_open_cup_photo2.jpeg') 0 50% no-repeat;
   background-size: cover;
   top: 0;
   bottom: 0;

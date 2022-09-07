@@ -1,7 +1,7 @@
 RewriteEngine On
 
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://BelarusOpenCup.by/$1 [R=301,L]
+RewriteRule ^(.*)$ https://MinskOpenCup.by/$1 [R=301,L]
 
 RewriteBase /
 RewriteRule ^index\.html$ - [L]

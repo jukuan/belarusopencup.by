@@ -242,6 +242,12 @@ video {
   max-height: 124px;
 }
 
+@media only screen and (min-width: 768px) {
+  .s-partners .column--partner {
+    max-width: 18%;
+  }
+}
+
 .s-partners img {
   height: auto;
   width: auto;
@@ -256,6 +262,7 @@ video {
 
 .s-partners .partner-logo-big {
   text-align: center;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 959px) {
@@ -265,12 +272,13 @@ video {
     margin-right: auto;
   }
 }
-
+/*
 @media only screen and (min-width: 960px) {
   .s-partners .partner-logo-big img {
-    max-width: 540px;
+    !*max-width: 540px;*!
   }
 }
+*/
 
 .s-poster {
   position: relative;

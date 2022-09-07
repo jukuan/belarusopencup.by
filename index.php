@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.14">
+    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.17">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="canonical" href="https://BelarusOpenCup.by">
     <meta property="og:image" content="https://BelarusOpenCup.by/img/og-image2022.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta http-equiv="last-modified" content="2022-04-04">
+    <meta http-equiv="last-modified" content="2022-05-06">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -170,59 +170,32 @@
       Партнёры и спонсоры турнира
     </h2>
 
-    <div class="columns">
-      <div class="column">
-        <div class="partner-logo-big">
-          <img src="/img/partners/p5.png" alt="">
-        </div>
-      </div>
-    </div>
+      <?php
 
-    <div class="columns">
-      <div class="column">
-        <div class="partner-logo">
-          <img src="/img/partners/p2.png" alt="">
-        </div>
-      </div>
+      $partners = range(1, 19);
 
-      <div class="column">
-        <div class="partner-logo logo-avtogood">
-          <img src="/img/partners/p9.png" alt="">
-        </div>
-      </div>
+      $partners = array_map(function($partnerKey) {
+          $ext = 'png';
 
-      <div class="column">
-        <div class="partner-logo">
-          <img src="/img/partners/p1.png" alt="">
-        </div>
-      </div>
-    </div>
+          if (in_array($partnerKey, [7, 8, 10, 15, 17, 19], true)) {
+              $ext = 'jpg';
+          }
 
-    <div class="columns">
-      <div class="column">
-        <div class="partner-logo">
-          <img src="/img/partners/p4.png" alt="">
-        </div>
+          return $partnerKey . '.' . $ext;
+      }, $partners);
+
+      ?>
+      <div class="columns">
+        <?php foreach ($partners as $i => $partnerKey): ?>
+              <div class="column column--partner t<?= ($i + 1) % 3 ?>">
+                  <div class="partner-logo-big">
+                      <img src="/img/partners/2022/partner<?= $partnerKey ?>" alt="">
+                  </div>
+              </div>
+			<?= 0 === ($i + 1) % 6 ? '</div><div class="columns">' : ''; ?>
+        <?php endforeach; ?>
       </div>
 
-      <div class="column">
-        <div class="partner-logo">
-          <img src="/img/partners/p3.png" alt="">
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="partner-logo">
-          <img src="/img/partners/p7.png" alt="">
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="partner-logo">
-          <img src="/img/partners/p8.jpg" alt="">
-        </div>
-      </div>
-    </div>
   </div>
 </section>
 

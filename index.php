@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.17">
+    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.19">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="canonical" href="https://MinskOpenCup.by">
     <meta property="og:image" content="https://MinskOpenCup.by/img/og-image2022.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta http-equiv="last-modified" content="2022-05-06">
+    <meta http-equiv="last-modified" content="2022-09-08">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -70,7 +70,7 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Афиша турнира <span class="t-name">Minsk Open Cup</span> 2022
+        Афиша <span class="t-name">«Кубок Мужества»</span> 2022
       </h2>
     </div>
   </div>
@@ -93,37 +93,93 @@
       <div class="column">
 
         <h2 class="section-title h2 has-text-centered">
-          Фото турнира Minsk OPEN CUP 2021
+          Фото соревнований «Кубок Мужества» 2021
         </h2>
 
-        <div class="images-grid">
-          <a href="/photo/2021/minsk_open_cup_photo1.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo1.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo2.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo2.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo3.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo3.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo4.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo4.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo5.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo5.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo6.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo6.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo7.jpeg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo7.jpeg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo8.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo8.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo9.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo9.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo10.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo10.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo11.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo11.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo12.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo12.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo13.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo13.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo14.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo14.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo15.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo15.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo16.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo16.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo17.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo18.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo19.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo20.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo21.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo22.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo23.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo24.jpg" alt=""></figure></a>
-          <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo25.jpg" alt=""></figure></a>
-        </div>
+          <div class="images-grid">
+              <a href="/photo/2021/minsk_open_cup_photo10.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo10.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo7.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo7.jpeg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo1.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo1.jpeg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo22.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo22.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo3.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo3.jpeg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo9.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo9.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo25.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo25.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo23.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo23.jpg" alt=""></figure>
+              </a>
 
+
+
+              <a href="/photo/2021/minsk_open_cup_photo4.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo4.jpeg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo6.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo6.jpeg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo2.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo2.jpeg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo19.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo19.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo8.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo8.jpg" alt=""></figure>
+              </a>
+
+              <a href="/photo/2021/minsk_open_cup_photo13.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo13.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo15.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo15.jpg" alt=""></figure>
+              </a>
+
+              <a href="/photo/2021/minsk_open_cup_photo16.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo16.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo17.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo17.jpg" alt=""></figure>
+              </a>
+
+              <a href="/photo/2021/minsk_open_cup_photo14.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo14.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo20.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo20.jpg" alt=""></figure>
+              </a>
+
+              <a href="/photo/2021/minsk_open_cup_photo5.jpeg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo5.jpeg" alt=""></figure>
+              </a>
+
+
+
+              <a href="/photo/2021/minsk_open_cup_photo11.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo11.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo12.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo12.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo21.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo21.jpg" alt=""></figure>
+              </a>
+              <a href="/photo/2021/minsk_open_cup_photo24.jpg" data-lightbox="image-1">
+                  <figure class="image"><img src="/photo/2021/sm/minsk_open_cup_photo24.jpg" alt=""></figure>
+              </a>
+          </div>
       </div>
     </div>
   </div>
@@ -139,8 +195,8 @@
       <div class="column">
         <h3 class="h3 subtitle has-text-centered">
           ПОЛОЖЕНИЕ<br/>
-          открытого международного турнира по киокушин карате в разделах кумите и ката
-          Minsk OPEN CUP 2022
+          открытого международных соревнований по киокушин карате в разделах кумите и ката
+          «Кубок Мужества» 2022
         </h3>
 
         <div id="pdf-doc-b1"></div>
@@ -153,22 +209,56 @@
 <section class="s blog-posts" id="docs">
   <div class="container">
     <h2 class="section-title h2 has-text-centered">
-       Документы турнира
+       Документы соревнований
     </h2>
 
     <div class="columns">
       <div class="column">
         <p>
           <a href="/doc/2022/MinskOpenCup.By_2022.pdf">Положение MinskOpenCup 2022</a><br/>
-          <a href="/doc/2022/КМ 2022 Приложение 1 заявка">КМ 2022 Приложение 1 заявка</a><br/>
-          <a href="/doc/2022/КМ 2022 Приложение 1А заявка">КМ 2022 Приложение 1А заявка</a><br/>
-          <a href="/doc/2022/КМ 2022 Приложение 2 заявление родителей">КМ 2022 Приложение 2 заявление родителей</a><br/>
-          <a href="/doc/2022/КМ 2022 Приложение 3 заявление 18+">КМ 2022 Приложение 3 заявление 18+</a><br/>
-          <a href="/doc/2022/Информация о размещении в гостиницах">Информация о размещении в гостиницах</a><br/>
+          <a href="/doc/2022/КМ 2022 Приложение 1 заявка.docx">КМ 2022 Приложение 1 заявка</a><br/>
+          <a href="/doc/2022/КМ%202022%20Приложение%201А%20заявка.xlsx">КМ 2022 Приложение 1А заявка</a><br/>
+          <a href="/doc/2022/КМ 2022 Приложение 2 заявление родителей.docx">КМ 2022 Приложение 2 заявление родителей</a><br/>
+          <a href="/doc/2022/КМ 2022 Приложение 3 заявление 18+.docx">КМ 2022 Приложение 3 заявление 18+</a><br/>
+          <a href="/doc/2022/Информация о размещении в гостиницах.docx">Информация о размещении в гостиницах</a><br/>
         </p>
+      </div>
+      <div class="column">
+          <div class="for-judges-content">
+              <p>
+                  Для проведения качественного судейства соревнований, приглашаем профессиональных судей по киокушин карате принять участие в судейском семинаре 14 октября 2022 г.
+              </p>
+              <p>
+                  Организаторы турнира обеспечивают:
+              </p>
+              <ul>
+                  <li>проживание судей в гостинице Минска с 14 по 15 октября;</li>
+                  <li>оплату работы на соревнованиях отобранных для судейства специалистов;</li>
+                  <li>памятные подарки;</li>
+              </ul>
+
+              <p>
+                  Формирование судейских бригад в компетенции главного судьи соревнований Кротова Сергея, 3 дан.
+                  <a href="tel:+375295258725">+375(29)525-87-25</a>
+              </p>
+          </div>
       </div>
     </div>
   </div>
+</section>
+
+<section class="s s-promo s-red-info" id="promo">
+    <div class="container">
+        <h2 class="h2 section-title has-text-centered">
+            Приглашение на турнир
+        </h2>
+
+        <div class="video-wrapper has-text-centered">
+            <video class="video" width="920" controls>
+                <source src="/video/promo.mov" type="video/mp4">
+            </video>
+        </div>
+    </div>
 </section>
 
 <section class="s s-partners" id="partners">
@@ -180,6 +270,10 @@
       <?php
 
       $partners = range(1, 19);
+
+      $partners = array_filter($partners, static function(int $id): bool {
+          return !in_array($id, [11, 9 ], true);
+      });
 
       $partners = array_map(function($partnerKey) {
           $ext = 'png';
@@ -209,7 +303,7 @@
 <section class="s s-map" id="map">
   <div class="container">
     <h2 class="section-title h2 has-text-centered">
-      Место проведения турнира MinskOpenCup 2022
+      Место проведения соревнований «Кубок Мужества» 2022
     </h2>
 
     <div class="map-wrapper">
@@ -217,7 +311,7 @@
     </div>
 
     <p class="has-text-right">
-      Адрес проведения турнира MinskOpenCup 2022:
+      Адрес проведения соревнований «Кубок Мужества» 2022:
       <strong>ул. Филимонова, 51Б</strong>. Минск, Беларусь
     </p>
   </div>
@@ -252,7 +346,7 @@
           <strong>Осу!</strong>
           <br/>
 
-          Турнир <a href="https://MinskOpenCup.by">Minsk Open Cup 2021 - 2022</a>.
+          Соревнования <a href="https://MinskOpenCup.by">Кубок Мужества 2021 - 2022</a>.
         </p>
       </div>
     </div>
@@ -269,7 +363,7 @@
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Регистрация Minsk Open Cup 2022</p>
+      <p class="modal-card-title">Регистрация Кубок Мужества 2022</p>
       <button class="delete" aria-label="close" data-bulma-modal="close"></button>
     </header>
 

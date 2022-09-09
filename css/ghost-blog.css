@@ -421,4 +421,20 @@ video {
   padding-left: 20px;
   margin: 2px 0 10px;
 }
-.for-judges-content ul li {}
+
+.posters-columns .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.s.s-partners .column--partner {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.s.s-partners .columns .column:last-child {
+  text-align: right;
+}

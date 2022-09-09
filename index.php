@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.19">
+    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.20">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="canonical" href="https://MinskOpenCup.by">
     <meta property="og:image" content="https://MinskOpenCup.by/img/og-image2022.jpg">
@@ -76,12 +76,12 @@
   </div>
 
   <div class="container">
-    <div class="columns">
+    <div class="columns posters-columns">
       <div class="column has-text-centered">
         <img src="/doc/2022/logo03.jpg" width="540" alt=""/>
       </div>
       <div class="column has-text-centered">
-        <img src="/img/open_cup_2022.jpg" width="565" alt=""/>
+        <img src="/img/afisha2022.jpg" width="565" alt=""/>
       </div>
     </div>
   </div>
@@ -275,7 +275,7 @@
           return !in_array($id, [11, 9 ], true);
       });
 
-      $partners = array_map(function($partnerKey) {
+      $partners = array_map(static function($partnerKey): string {
           $ext = 'png';
 
           if (in_array($partnerKey, [7, 8, 10, 15, 17, 19], true)) {
@@ -284,6 +284,7 @@
 
           return $partnerKey . '.' . $ext;
       }, $partners);
+      $partners = array_values($partners);
 
       ?>
       <div class="columns">
@@ -381,7 +382,11 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.5/pdfobject.min.js" integrity="sha512-K4UtqDEi6MR5oZo0YJieEqqsPMsrWa9rGDWMK2ygySdRQ+DtwmuBXAllehaopjKpbxrmXmeBo77vjA2ylTYhRA==" crossorigin="anonymous"></script>
-<script>PDFObject.embed("/doc/2022/MinskOpenCup.By_2022.pdf", "#pdf-doc-b1");</script>
+<script>
+    if (PDFObject.supportsPDFs) {
+        PDFObject.embed("/doc/2022/MinskOpenCup.By_2022.pdf", "#pdf-doc-b1", {fallbackLink: false});
+    }
+</script>
 
 <script>
   class BulmaModal {

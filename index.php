@@ -4,18 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BelarusOpenCup &ndash; 2022</title>
+    <title>MinskOpen &ndash; 2023</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.17">
+    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.18">
     <link rel="icon" type="image/png" href="/favicon.png">
-    <link rel="canonical" href="https://BelarusOpenCup.by">
-    <meta property="og:image" content="https://BelarusOpenCup.by/img/og-image2022.jpg">
+    <link rel="canonical" href="https://MinskOpen.by">
+    <meta property="og:image" content="https://MinskOpen.by/img/og-image2023.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta http-equiv="last-modified" content="2022-05-06">
+    <meta http-equiv="last-modified" content="2023-08-28">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -70,7 +70,7 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Афиша турнира <span class="t-name">Belarus Open Cup</span> 2022
+        Афиша турнира <span class="t-name">Minsk Open</span> 2023
       </h2>
     </div>
   </div>
@@ -78,10 +78,7 @@
   <div class="container">
     <div class="columns">
       <div class="column has-text-centered">
-        <img src="/doc/2022/logo03.jpg" width="540" alt=""/>
-      </div>
-      <div class="column has-text-centered">
-        <img src="/img/OPEN_CUP_2022_8.jpg" width="540" alt=""/>
+        <img src="/img/2023/afisha1.jpg" alt=""/>
       </div>
     </div>
   </div>
@@ -93,29 +90,59 @@
       <div class="column">
 
         <h2 class="section-title h2 has-text-centered">
-          Фото турнира BELARUS OPEN CUP 2021
+          Фото предыдущих турниров MINSK OPEN
         </h2>
 
         <div class="images-grid">
-          <a href="/photo/2021/img1.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img1.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img2.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img2.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img3.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img3.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img4.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img4.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img5.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img5.JPEG" alt=""></figure></a>
-<!--          <a href="/photo/2021/img6.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img6.JPEG" alt=""></figure></a>-->
-          <a href="/photo/2021/img7.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img7.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img8.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img8.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img9.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img9.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img10.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img10.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img11.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img11.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img12.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img12.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img13.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img13.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img14.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img14.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img15.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img15.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img16.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img16.JPEG" alt=""></figure></a>
-          <a href="/photo/2021/img17.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img17.JPEG" alt=""></figure></a>
+          <?php
+
+          $dir = __DIR__ . '/photo/2021/';
+          // TODO: read all files from that dir in the loop and do output them in the following format:
+          // <a href="/photo/2021/img1.JPEG" data-lightbox="image-1"><figure class="image"><img src="/photo/2021/sm/img1.JPEG" alt=""></figure></a>
+
+          if ($handle = opendir($dir)) {
+            // Loop through each file in the directory
+            while (false !== ($file = readdir($handle))) {
+                // Exclude directories and parent/relative paths
+                if ($file != "." && $file != ".." && !is_dir($dir . $file)) {
+                    // Generate the URLs for the image and thumbnail
+                    $imageURL = '/photo/2021/' . $file;
+                    $thumbnailURL = '/photo/2021/sm/' . $file;
+
+                    // Output the HTML in the desired format
+                    echo '<a href="' . $imageURL . '" data-lightbox="image-' . $file . '">';
+                    echo '<figure class="image"><img src="' . $thumbnailURL . '" alt=""></figure>';
+                    echo '</a>';
+                }
+            }
+            // Close the directory handle
+            closedir($handle);
+          }
+
+          ?>
         </div>
 
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="s blog-posts s-poster" id="poster">
+  <div class="container">
+    <div class="column is-12 has-text-centered">
+      <h2 class="section-title h2">
+        Видео-приглашения на турнира <span class="t-name">Minsk Open</span> 2023
+      </h2>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="columns">
+      <div class="column has-text-centered">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/j3EJxQdvrK0?si=5P4jXlaU_XYFU_OW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="column has-text-centered">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/jWkipUh0amY?si=cITR6gjcuZBuUXD6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -132,7 +159,7 @@
         <h3 class="h3 subtitle has-text-centered">
           ПОЛОЖЕНИЕ<br/>
           открытого международного турнира по киокушин карате в разделах кумите и ката
-          BELARUS OPEN CUP 2022
+          MINSK OPEN 2023
         </h3>
 
         <div id="pdf-doc-b1"></div>
@@ -150,14 +177,27 @@
 
     <div class="columns">
       <div class="column">
-        <p>
-          <a href="/doc/2022/BelarusOpenCup.By_2022.pdf">Положение BelarusOpenCup 2022</a><br/>
-          <a href="/doc/2022/Приложение 1 заявка.pdf">Приложение 1 заявка (pdf(</a><br/>
-          <a href="/doc/2022/Приложение 1А заявка.xlsx">Приложение 1А заявка (xlsx)</a><br/>
-          <a href="/doc/2022/Приложение 2 заявление родителей.pdf">Приложение 2 заявление родителей</a><br/>
-          <a href="/doc/2022/Приложение 3 заявление 18+.pdf">Приложение 3 заявление 18+</a><br/>
-          <a href="/doc/2022/Приложение 4 гостиница.pdf">Приложение 4 гостиница</a><br/>
-          <a href="/doc/2022/РАЗМЕЩЕНИЕ 7-8.05.22.docx">Информация о размещении в гостиницах</a><br/>
+      <p>
+        <?php 
+        $dir = __DIR__ . '/doc/2023/'; 
+        
+        if ($handle = opendir($dir)) {
+          // Loop through each file in the directory
+          while (false !== ($file = readdir($handle))) {
+              // Exclude directories and parent/relative paths
+              if ($file != "." && $file != ".." && !is_dir($dir . $file)) {
+                  // Generate the URL for the file
+                  $fileURL = '/doc/2023/' . $file;
+      
+                  // Output the HTML in the desired format
+                  echo '<a href="' . $fileURL . '">' . $file . '</a><br/>';
+              }
+          }
+          // Close the directory handle
+          closedir($handle);
+      }
+
+        ?>
         </p>
       </div>
     </div>
@@ -167,7 +207,7 @@
 <section class="s s-partners" id="partners">
   <div class="container">
     <h2 class="h2 section-title has-text-centered">
-      Партнёры и спонсоры турнира
+      Партнёры и спонсоры турнира!
     </h2>
 
       <?php
@@ -184,15 +224,20 @@
           return $partnerKey . '.' . $ext;
       }, $partners);
 
+      $partners = array_filter($partners, function ($fileName) {
+          return file_exists(__DIR__ . '/img/partners/2023/partner'.$fileName);
+      });
+      $partners = array_values($partners);
+
       ?>
       <div class="columns">
         <?php foreach ($partners as $i => $partnerKey): ?>
               <div class="column column--partner t<?= ($i + 1) % 3 ?>">
-                  <div class="partner-logo-big">
-                      <img src="/img/partners/2022/partner<?= $partnerKey ?>" alt="">
+                  <div class="partner-logo">
+                      <img src="/img/partners/2023/partner<?= $partnerKey ?>" alt="">
                   </div>
               </div>
-			<?= 0 === ($i + 1) % 6 ? '</div><div class="columns">' : ''; ?>
+			  <?= 0 === ($i + 1) % 6 ? '</div><div class="columns">' : ''; ?>
         <?php endforeach; ?>
       </div>
 
@@ -202,16 +247,16 @@
 <section class="s s-map" id="map">
   <div class="container">
     <h2 class="section-title h2 has-text-centered">
-      Место проведения турнира BelarusOpenCup 2022
+      Место проведения турнира MinskOpen 2023
     </h2>
 
     <div class="map-wrapper">
-      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A80d7da9b0749edf039adf4032afb700e469269dbaff3f53e69e0d76e92096afc&amp;width=100%25&amp;height=652&amp;lang=en_FR&amp;scroll=true"></script>
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac8f60134019f5af6ab40111593413d2d286cd6a27cf4b98b6879889004caf2eb&amp;width=100%25&amp;height=428&amp;lang=en_FR&amp;scroll=true"></script>
     </div>
 
     <p class="has-text-right">
-      Адрес проведения турнира BelarusOpenCup 2022:
-      <strong>ул. Филимонова, 51Б</strong>. Минск, Беларусь
+      Адрес проведения турнира MinskOpen 2023:
+      <strong>Пр. Победителей, 63</strong>. Минск, Беларусь
     </p>
   </div>
 </section>
@@ -228,7 +273,7 @@
           <p>
             Республика Беларусь<br/>
             г. Минск, ул. Краснозвездная, 3 пом.6Н<br/>
-            <a href="mailto:info@BelarusOpenCup.by">info@BelarusOpenCup.by</a><br/>
+            <a href="mailto:kyokushinblr@gmail.com">kyokushinblr@gmail.com</a><br/>
             тел. <a href="tel:+375293761442">+375293761442</a>
           </p>
         </div>
@@ -245,14 +290,14 @@
           <strong>Осу!</strong>
           <br/>
 
-          Турнир <a href="https://belarusopencup.by">Belarus Open Cup 2021 - 2022</a>.
+          Турнир <a href="https://MinskOpen.by">Minsk Open 2023</a>.
         </p>
       </div>
     </div>
 
     <p class="has-text-centered">
       <img src="img/logo_mfk_en_black.png" class="footer-logo -l1" height="120" alt="">
-      <img src="/doc/2022/logo03.jpg" class="footer-logo -l2" height="120" alt="">
+      <img src="/doc/2023/logo03.jpg" class="footer-logo -l2" height="120" alt="">
       <img src="img/logo_BSKF_en_black.png" class="footer-logo -l3" height="120" alt="">
     </p>
   </div>
@@ -262,7 +307,7 @@
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Регистрация Belarus Open Cup 2022</p>
+      <p class="modal-card-title">Регистрация Minsk Open 2023</p>
       <button class="delete" aria-label="close" data-bulma-modal="close"></button>
     </header>
 
@@ -280,7 +325,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.5/pdfobject.min.js" integrity="sha512-K4UtqDEi6MR5oZo0YJieEqqsPMsrWa9rGDWMK2ygySdRQ+DtwmuBXAllehaopjKpbxrmXmeBo77vjA2ylTYhRA==" crossorigin="anonymous"></script>
-<script>PDFObject.embed("/doc/2022/BelarusOpenCup.By_2022.pdf", "#pdf-doc-b1");</script>
+<script>PDFObject.embed("/doc/2023/КМ 2023 Положение на сайт.pdf", "#pdf-doc-b1");</script>
 
 <script>
   class BulmaModal {

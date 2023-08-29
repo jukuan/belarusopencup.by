@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.18">
+    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.22">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="canonical" href="https://MinskOpen.by">
     <meta property="og:image" content="https://MinskOpen.by/img/og-image2023.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta http-equiv="last-modified" content="2023-08-28">
+    <meta http-equiv="last-modified" content="2023-08-29">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -35,7 +35,7 @@
         <div class="navbar-menu">
           <div class="navbar-center">
 <!--            <img src="favicon.png" class="navbar-logo navbar-item" alt="">-->
-            <a class="navbar-item" href="#statements">Положение</a>
+<!--            <a class="navbar-item" href="#statements">Положение</a>-->
             <a class="navbar-item" href="#docs">Документы</a>
             <a class="navbar-item" href="#partners">Партнёры</a>
             <a class="navbar-item" href="#map">Карта проезда</a>
@@ -48,40 +48,12 @@
       </nav>
     </div>
   </div>
-
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <h2 class="subtitle">
-        Вітаем у Беларусі!<br/>
-        Добро пожаловать в Беларусь!<br/>
-        Welcome to Belarus!
-      </h2>
-
-      <!--<p class="has-text-centered">
-        <button id="btnRegister" class="button is-link is-large is-rounded">
-          Регистрация
-        </button>
-      </p>-->
-    </div>
-  </div>
 </section>
 
 <section class="s blog-posts s-poster" id="poster">
-  <div class="container">
-    <div class="column is-12 has-text-centered">
-      <h2 class="section-title h2">
-        Афиша турнира <span class="t-name">Minsk Open</span> 2023
-      </h2>
+    <div class="has-text-centered">
+        <img src="/img/2023/afisha2.jpg" width="100%" alt=""/>
     </div>
-  </div>
-
-  <div class="container">
-    <div class="columns">
-      <div class="column has-text-centered">
-        <img src="/img/2023/afisha1.jpg" alt=""/>
-      </div>
-    </div>
-  </div>
 </section>
 
 <section class="s s-red-info">
@@ -90,7 +62,7 @@
       <div class="column">
 
         <h2 class="section-title h2 has-text-centered">
-          Фото предыдущих турниров MINSK OPEN
+          Фото предыдущих соревнованияов MINSK OPEN
         </h2>
 
         <div class="images-grid">
@@ -131,7 +103,7 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Видео-приглашения на турнира <span class="t-name">Minsk Open</span> 2023
+        Видео-приглашения на соревнований <span class="t-name">Minsk Open</span> 2023
       </h2>
     </div>
   </div>
@@ -158,7 +130,7 @@
       <div class="column">
         <h3 class="h3 subtitle has-text-centered">
           ПОЛОЖЕНИЕ<br/>
-          открытого международного турнира по киокушин карате в разделах кумите и ката
+          открытого международного соревнований по киокушин карате в разделах кумите и ката
           MINSK OPEN 2023
         </h3>
 
@@ -172,7 +144,7 @@
 <section class="s blog-posts" id="docs">
   <div class="container">
     <h2 class="section-title h2 has-text-centered">
-       Документы турнира
+       Документы соревнований
     </h2>
 
     <div class="columns">
@@ -207,7 +179,7 @@
 <section class="s s-partners" id="partners">
   <div class="container">
     <h2 class="h2 section-title has-text-centered">
-      Партнёры и спонсоры турнира!
+      Партнёры и спонсоры соревнований
     </h2>
 
       <?php
@@ -247,7 +219,7 @@
 <section class="s s-map" id="map">
   <div class="container">
     <h2 class="section-title h2 has-text-centered">
-      Место проведения турнира MinskOpen 2023
+      Место проведения соревнований MinskOpen 2023
     </h2>
 
     <div class="map-wrapper">
@@ -255,7 +227,7 @@
     </div>
 
     <p class="has-text-right">
-      Адрес проведения турнира MinskOpen 2023:
+      Адрес проведения соревнований MinskOpen 2023:
       <strong>Пр. Победителей, 63</strong>. Минск, Беларусь
     </p>
   </div>
@@ -290,7 +262,7 @@
           <strong>Осу!</strong>
           <br/>
 
-          Турнир <a href="https://MinskOpen.by">Minsk Open 2023</a>.
+          соревнования <a href="https://MinskOpen.by">Minsk Open 2023</a>.
         </p>
       </div>
     </div>

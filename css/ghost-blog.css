@@ -166,8 +166,9 @@ video {
 .hero-welcome:before {
   content: '';
   position: absolute;
-  background: url('../img/Babrujskaja.jpg') 0 50% no-repeat;
-  background-size: cover;
+  /*background: url('../img/main_logo_2023.jpg') 50% 50% no-repeat;*/
+  /*background: url('../photo/2023/afisha.jpg') 50% 50% no-repeat;*/
+  /*background-size: cover;*/
   top: 0;
   bottom: 0;
   left: 0;
@@ -224,8 +225,6 @@ video {
   font-size: 20px;
 }
 
-
-
 .s-partners .partner-logo {
   display: flex;
   align-items: center;
@@ -272,18 +271,13 @@ video {
     margin-right: auto;
   }
 }
-/*
-@media only screen and (min-width: 960px) {
-  .s-partners .partner-logo-big img {
-    !*max-width: 540px;*!
-  }
-}
-*/
 
 .s-poster {
   position: relative;
   background: white;
   color: #212121;
+  padding: 0;
+  line-height: 0;
 }
 
 @media only screen and (min-width: 960px) {
@@ -309,8 +303,8 @@ video {
 }
 
 .s-poster img {
-  max-height: 98vh;
-  max-width: 540px;
+  /*max-height: 98vh;*/
+  /*max-width: 1280px;*/
   margin-left: auto;
   margin-right: auto;
   z-index: 20;

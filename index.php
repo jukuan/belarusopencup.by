@@ -103,7 +103,8 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Видео-приглашения на <span class="t-name">«Кубок Мужества»</span> 2023
+        Видео-приглашения на <br/>
+        <span class="t-name">«Кубок Мужества»</span> 2023
       </h2>
     </div>
   </div>
@@ -236,6 +237,11 @@
     <p class="has-text-right">
       Адрес проведения соревнований «Кубок Мужества» 2023:
       <strong>Пр. Победителей, 63</strong>. Минск, Беларусь
+    </p>
+
+    <p>
+      Для проживания мы рекомендуем гостиницу
+      <a href="https://sporttime-hotel.by">SportTime Hotel</a>
     </p>
   </div>
 </section>

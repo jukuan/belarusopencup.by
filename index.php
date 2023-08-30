@@ -245,7 +245,7 @@
           <p>
             Республика Беларусь<br/>
             г. Минск, ул. Краснозвездная, 3 пом.6Н<br/>
-            <a href="mailto:kyokushinblr@gmail.com">kyokushinblr@gmail.com</a><br/>
+            <a href="mailto:minskopencup@gmail.com">minskopencup@gmail.com</a><br/>
             тел. <a href="tel:+375293761442">+375293761442</a>
           </p>
         </div>
@@ -297,7 +297,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfobject/2.2.5/pdfobject.min.js" integrity="sha512-K4UtqDEi6MR5oZo0YJieEqqsPMsrWa9rGDWMK2ygySdRQ+DtwmuBXAllehaopjKpbxrmXmeBo77vjA2ylTYhRA==" crossorigin="anonymous"></script>
-<script>PDFObject.embed("/doc/2023/КМ 2023 Положение на сайт.pdf", "#pdf-doc-b1");</script>
+<script>PDFObject.embed("/doc/2023/00 _Положение.pdf", "#pdf-doc-b1");</script>
 
 <script>
   class BulmaModal {

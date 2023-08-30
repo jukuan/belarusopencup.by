@@ -9,13 +9,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.22">
+    <link rel="stylesheet" type="text/css" href="/css/ghost-blog.css?v=0.1.23">
     <link rel="icon" type="image/png" href="/favicon.png">
     <link rel="canonical" href="https://MinskOpen.by">
     <meta property="og:image" content="https://MinskOpen.by/img/og-image2023.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta http-equiv="last-modified" content="2023-08-29">
+    <meta http-equiv="last-modified" content="2023-08-30">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -62,7 +62,7 @@
       <div class="column">
 
         <h2 class="section-title h2 has-text-centered">
-          Фото предыдущих соревнованияов «Кубок Мужества»
+          Фото предыдущих соревнований «Кубок Мужества»
         </h2>
 
         <div class="images-grid">
@@ -103,7 +103,7 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Видео-приглашения на соревнований <span class="t-name">«Кубок Мужества»</span> 2023
+        Видео-приглашения на <span class="t-name">«Кубок Мужества»</span> 2023
       </h2>
     </div>
   </div>
@@ -130,8 +130,8 @@
       <div class="column">
         <h3 class="h3 subtitle has-text-centered">
           ПОЛОЖЕНИЕ<br/>
-          открытого международного соревнований по киокушин карате в разделах кумите и ката
-          «Кубок Мужества» 2023
+          открытых соревнований по Шинкиокушин карате
+          Minsk Open WKO «КУБОК МУЖЕСТВА
         </h3>
 
         <div id="pdf-doc-b1"></div>
@@ -152,22 +152,29 @@
       <p>
         <?php 
         $dir = __DIR__ . '/doc/2023/'; 
+        $list = [];
         
         if ($handle = opendir($dir)) {
           // Loop through each file in the directory
           while (false !== ($file = readdir($handle))) {
               // Exclude directories and parent/relative paths
               if ($file != "." && $file != ".." && !is_dir($dir . $file)) {
-                  // Generate the URL for the file
-                  $fileURL = '/doc/2023/' . $file;
-      
-                  // Output the HTML in the desired format
-                  echo '<a href="' . $fileURL . '">' . $file . '</a><br/>';
+                  $list[] = $file;
               }
           }
           // Close the directory handle
           closedir($handle);
-      }
+
+          sort($list);
+
+          foreach ($list as $file) {
+            // Generate the URL for the file
+            $fileURL = '/doc/2023/' . $file;
+
+            // Output the HTML in the desired format
+            echo '<a href="' . $fileURL . '">' . $file . '</a><br/>';
+          }
+        }
 
         ?>
         </p>

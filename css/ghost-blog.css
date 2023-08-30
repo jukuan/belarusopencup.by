@@ -277,7 +277,6 @@ video {
   background: white;
   color: #212121;
   padding: 0;
-  line-height: 0;
 }
 
 @media only screen and (min-width: 960px) {

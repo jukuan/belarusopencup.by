@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MinskOpen &ndash; 2023</title>
+    <title>«Кубок Мужества» &ndash; 2023</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/15181efa86.js" crossorigin="anonymous"></script>
@@ -62,7 +62,7 @@
       <div class="column">
 
         <h2 class="section-title h2 has-text-centered">
-          Фото предыдущих соревнованияов MINSK OPEN
+          Фото предыдущих соревнованияов «Кубок Мужества»
         </h2>
 
         <div class="images-grid">
@@ -103,7 +103,7 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Видео-приглашения на соревнований <span class="t-name">Minsk Open</span> 2023
+        Видео-приглашения на соревнований <span class="t-name">«Кубок Мужества»</span> 2023
       </h2>
     </div>
   </div>
@@ -131,7 +131,7 @@
         <h3 class="h3 subtitle has-text-centered">
           ПОЛОЖЕНИЕ<br/>
           открытого международного соревнований по киокушин карате в разделах кумите и ката
-          MINSK OPEN 2023
+          «Кубок Мужества» 2023
         </h3>
 
         <div id="pdf-doc-b1"></div>
@@ -219,7 +219,7 @@
 <section class="s s-map" id="map">
   <div class="container">
     <h2 class="section-title h2 has-text-centered">
-      Место проведения соревнований MinskOpen 2023
+      Место проведения соревнований «Кубок Мужества» 2023
     </h2>
 
     <div class="map-wrapper">
@@ -227,7 +227,7 @@
     </div>
 
     <p class="has-text-right">
-      Адрес проведения соревнований MinskOpen 2023:
+      Адрес проведения соревнований «Кубок Мужества» 2023:
       <strong>Пр. Победителей, 63</strong>. Минск, Беларусь
     </p>
   </div>
@@ -262,7 +262,7 @@
           <strong>Осу!</strong>
           <br/>
 
-          соревнования <a href="https://MinskOpen.by">Minsk Open 2023</a>.
+          соревнования <a href="https://MinskOpen.by">«Кубок Мужества» 2023</a>.
         </p>
       </div>
     </div>
@@ -279,7 +279,7 @@
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Регистрация Minsk Open 2023</p>
+      <p class="modal-card-title">Регистрация «Кубок Мужества» 2023</p>
       <button class="delete" aria-label="close" data-bulma-modal="close"></button>
     </header>
 

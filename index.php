@@ -103,8 +103,8 @@
   <div class="container">
     <div class="column is-12 has-text-centered">
       <h2 class="section-title h2">
-        Видео-приглашения на <br/>
-        <span class="t-name">«Кубок Мужества»</span> 2023
+        Видео с турниров <br/>
+        <span class="t-name">«Кубок Мужества»</span> 2022
       </h2>
     </div>
   </div>
